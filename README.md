@@ -20,7 +20,19 @@ Both server and client need to load the other one's certification. （服务端�
 go run server_cla.go
 ```
 
+## Run Client （运行客户端）
 
+Only with server certification. （仅服务端有证书）
+
+```shell
+go run client.go
+```
+
+Both server and client need to load the other one's certification. （服务端和客户端都需要有证书）
+
+```shell
+go run client_cla.go
+```
 
 ## Generate CA certification （生成CA证书）
 
